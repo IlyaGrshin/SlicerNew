@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "my-command",
+      "identifier": "slicernew.my-command-identifier",
+      "script": "./common.js"
+    }
+  ],
+  "menu": {
+    "title": "SlicerNew",
+    "items": [
+      "slicernew.my-command-identifier"
+    ]
+  }
+}
